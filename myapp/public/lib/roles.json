@@ -1,0 +1,36 @@
+[{
+    "id": 1,
+    "roleName": "管理员",
+    "roleType": 1,
+    "rights": [
+      "/index",
+      "/user-manage",
+      "/user-manage/list",
+      "/right-manage",
+      "/right-manage/rolelist",
+      "/right-manage/rightlist",
+      "/tag-manage",
+      "/tag-manage/list",
+      "/interview-manage",
+      "/interview-manage/companylist",
+      "/interview-manage/companydata",
+      "/student-manage",
+      "/student-manage/studentlist",
+      "/student-manage/gradelist"
+    ]
+  },
+  {
+    "id": 2,
+    "roleName": "讲师",
+    "roleType": 2,
+    "rights": [
+      "/index",
+      "/interview-manage",
+      "/interview-manage/companylist",
+      "/interview-manage/companydata",
+      "/student-manage",
+      "/student-manage/studentlist",
+      "/student-manage/gradelist"
+    ]
+  }
+]

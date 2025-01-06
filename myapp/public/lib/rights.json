@@ -1,0 +1,83 @@
+[
+  {
+    "title": "学生大数据",
+    "path": "/index",
+    "icon": "TrendCharts",
+    "children": []
+  },
+  {
+    "title": "用户管理",
+    "path": "/user-manage",
+    "icon": "User",
+    "children": [
+      {
+        "title": "用户列表",
+        "path": "/user-manage/list",
+        "icon": "List"
+      }
+    ]
+  },
+  {
+    "title": "权限管理",
+    "path": "/right-manage",
+    "icon": "Key",
+    "children": [
+      {
+        "title": "角色列表",
+        "path": "/right-manage/rolelist",
+        "icon": "List"
+      },
+      {
+        "title": "权限列表",
+        "path": "/right-manage/rightlist",
+        "icon": "List"
+      }
+    ]
+  },
+  {
+    "title": "技术标签管理",
+    "path": "/tag-manage",
+    "icon": "Grid",
+    "children": [
+      {
+        "title": "技术标签列表",
+        "path": "/tag-manage/list",
+        "icon": "List"
+      }
+    ]
+  },
+  {
+    "title": "面试管理",
+    "path": "/interview-manage",
+    "icon": "OfficeBuilding",
+    "children": [
+      {
+        "title": "公司列表",
+        "path": "/interview-manage/companylist",
+        "icon": "List"
+      },
+      {
+        "title": "公司大数据",
+        "path": "/interview-manage/companydata",
+        "icon": "PieChart"
+      }
+    ]
+  },
+  {
+    "title": "学生管理",
+    "icon": "School",
+    "path": "/student-manage",
+    "children": [
+      {
+        "title": "学生列表",
+        "path": "/student-manage/studentlist",
+        "icon": "List"
+      },
+      {
+        "title": "班级列表",
+        "path": "/student-manage/gradelist",
+        "icon": "List"
+      }
+    ]
+  }
+]

@@ -1,0 +1,57 @@
+[
+    {
+        "title": "html5",
+        "grade": 1
+    },
+    {
+        "title": "css3",
+        "grade": 1
+    },
+
+    {
+        "title": "DOM操作",
+        "grade": 2
+    },
+    {
+        "title": "ES6",
+        "grade": 2
+    },
+    {
+        "title": "面向对象",
+        "grade": 2
+    },
+    {
+        "title": "数据交互",
+        "grade": 2
+    },
+
+    {
+        "title": "git",
+        "grade": 2
+    },
+    {
+        "title": "nodejs",
+        "grade": 3
+    },
+    {
+        "title": "vue3",
+        "grade": 3
+    },
+    {
+        "title": "react",
+        "grade": 3
+    },
+
+    {
+        "title": "typescript",
+        "grade": 3
+    },
+    {
+        "title": "微信小程序",
+        "grade": 3
+    },
+    {
+        "title": "web3",
+        "grade": 3
+    }
+]

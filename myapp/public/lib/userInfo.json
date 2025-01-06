@@ -1,0 +1,48 @@
+{
+    "userInfo" : [
+        {
+            "id": 1,
+            "username": "admin",
+            "password": "123",
+            "role": {
+                "roleName": "管理员",
+                "roleType": 1,
+                "rights": [
+                    "/index",
+                    "/user-manage",
+                    "/user-manage/list",
+                    "/right-manage",
+                    "/right-manage/rolelist",
+                    "/right-manage/rightlist",
+                    "/tag-manage",
+                    "/tag-manage/list",
+                    "/interview-manage",
+                    "/interview-manage/companylist",
+                    "/interview-manage/companydata",
+                    "/student-manage",
+                    "/student-manage/studentlist",
+                    "/student-manage/gradelist"
+                ]
+            }
+        },
+        {
+            "id": 2,
+            "username": "kerwin",
+            "password": "123",
+            "role": {
+                "roleName": "讲师",
+                "roleType": 2,
+                "rights": [
+                    "/index",
+                    "/interview-manage",
+                    "/interview-manage/companylist",
+                    "/interview-manage/companydata",
+                    "/student-manage",
+                    "/student-manage/studentlist",
+                    "/student-manage/gradelist"
+                ]
+            }
+        }
+    ]
+
+}
