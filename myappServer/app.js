@@ -71,7 +71,7 @@ app.use((req, res, next) => {
 // 默认提供了2个路由, /和/user,用于测试端口服务器是否打开
 app.use('/', indexRouter);   // http://localhost:3000
 app.use('/users', usersRouter); // http://localhost:3000/users
-// 注册,这个主路由默认/,要访问的话就寻找其子路由http://localhost:3000 + /adminapi/rights
+// 注册,下面这些个路由的主路由默认/,要访问的话就寻找其子路由http://localhost:3000 + /adminapi/rights
 app.use(RightRouter)
 app.use(RoleRouter)
 app.use(UserRouter)
